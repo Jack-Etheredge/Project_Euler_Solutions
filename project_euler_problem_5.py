@@ -15,3 +15,4 @@ while checknum==False:
 print(smallestnum)
 
 # This took 9.5 minutes to run, so I strongly suspect there's a more clever solution.
+# The better solution takes into account the prime factorization of the numbers and simply multiplies necessary prime factors.
