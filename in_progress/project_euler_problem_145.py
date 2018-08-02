@@ -21,3 +21,6 @@ for i in range(10, maxnum+1):
         print(round((i/maxnum)*100,2),"%")
 
 print(countnums)
+
+# This code is SUPER inefficient. It takes a very long time to run (2h21m).
+# We could save a bit of computation by excluding numbers that start and end in an even number, because then we know the sum will have an even digit.
